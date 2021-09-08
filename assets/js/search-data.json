@@ -4,9 +4,9 @@
         "post0": {
             "title": "斐波那契数列的通项公式",
             "content": "def fibonacci(n): &#39;&#39;&#39; 用递推公式计算第 n 个斐波那契数 &#39;&#39;&#39; if n == 0: return 0 x, y = 0, 1 for i in range(2, n+1): x, y = y, x + y #print(i, y) return y fibonacci(10) . 55 . 通项公式 . 其实，斐波那契数列可以用一个通项公式表达出来 . begin{aligned} a_n = frac{1}{ sqrt 5} left[ left( frac{1 + sqrt 5}{2} right)^n - left( frac{1 - sqrt 5}{2} right)^n right] end{aligned}（虽然它是一个根式表达式，但最后结果却总是一个整数。） . 这道习题里，我们将验证这个公式的正确性。 . &#32534;&#31243;&#32451;&#20064; . 问题： 请写一个函数，返回用通项公式计算的斐波那契数列的第 $n$ 项的值，并和递推式计算的结果比较。 . 提示： 以上函数会返回的一个浮点数，会有大约 $10^{-15}$ 左右的舍入误差，可以用 round() 函数四舍五入为一个整数。 . 你可以使用以下模板： . def fibonacci_formula(n): &#39;&#39;&#39; 返回第 n 个斐波那契数 &#39;&#39;&#39; an = ... return round(an) for n in range(15): print(&quot;{}: {} {}&quot;.format(n, fibonacci(n), fibonacci_formula(n))) .",
-            "url": "https://3ki5tj.github.io/fpblog/2021/09/07/fibonacci_formula.html",
-            "relUrl": "/2021/09/07/fibonacci_formula.html",
-            "date": " • Sep 7, 2021"
+            "url": "https://3ki5tj.github.io/fpblog/2021/09/08/fibonacci_formula.html",
+            "relUrl": "/2021/09/08/fibonacci_formula.html",
+            "date": " • Sep 8, 2021"
         }
         
     
