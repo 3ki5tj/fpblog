@@ -1,1 +1,1 @@
-Sitemap: https://3ki5tj.github.io/fastpages-gen/sitemap.xml
+Sitemap: https://3ki5tj.github.io/fpblog/sitemap.xml
